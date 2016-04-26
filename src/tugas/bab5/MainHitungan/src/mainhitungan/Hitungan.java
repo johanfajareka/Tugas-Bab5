@@ -15,4 +15,12 @@ public class Hitungan {
         b = x - y;
         System.out.println("Hasil penjumlahan = " +b);
     }
+    public void perkalian(int x, int y) {
+        b = x * y;
+        System.out.println("Hasil perkalian = " +b);
+    }
+    public void pembagian(double x, double y){
+        a = x / y;
+        
+    }
 }
