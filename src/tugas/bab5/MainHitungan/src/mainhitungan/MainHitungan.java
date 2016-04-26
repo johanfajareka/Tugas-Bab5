@@ -35,6 +35,27 @@ public class MainHitungan {
                     b = in.nextInt();
                     Hitungan.pengurangan(a, b);
                     break;
+                case 3:
+                    System.out.println("");
+                    System.out.print("Masukkan nilai 1 : ");
+                    a = in.nextInt();
+                    System.out.print("Masukkan nilai 2 : ");
+                    b = in.nextInt();
+                    h.perkalian(a, b);
+                    break;
+                case 4:
+                    System.out.println("");
+                    System.out.print("Masukkan nilai 1 : ");
+                    a = in.nextInt();
+                    System.out.print("Masukkan nilai 2 : ");
+                    b = in.nextInt();
+                    h.pembagian(a, b);
+                    break;
+                case 5:
+                    System.out.println("Terima Kasih telah menggunakan program kami...");
+                    System.exit(0);
+                    break;
+                default:
             }
         }
     }
