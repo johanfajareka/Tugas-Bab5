@@ -56,11 +56,8 @@ public class MainHitungan {
                     System.exit(0);
                     break;
                 default:
-                    System.out.println("Pilihan yang anda masukkan tidak ada di menu...");
-                    System.out.println("Ulangi lagi...");
             }
         }
-
     }
 
 }
