@@ -6,8 +6,8 @@ public class MainKomdas {
 
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        int pil,jml;
-        
+        int pil, jml;
+
         for (;;) {
             System.out.println("");
             System.out.println(" >> CV.Labkomdas << ");
@@ -21,14 +21,32 @@ public class MainKomdas {
             switch (pil) {
                 case 1:
                     System.out.println("");
-                    System.out.println("Masukkan jumlah jaker : ");
+                    System.out.println("Masukkan jumlah jaket : ");
                     jml = in.nextInt();
                     Komdas.hitungJaketA(jml);
                     break;
+                case 2:
+                    System.out.println("");
+                    System.out.println("Masukkan jumlah jaket : ");
+                    jml = in.nextInt();
+                    Komdas.hitungJaketB(jml);
+                    break;
+                case 3:
+                    System.out.println("");
+                    System.out.println("Masukkan jumlah jaket : ");
+                    jml = in.nextInt();
+                    Komdas.hitungJaketC(jml);
+                    break;
+                case 4:
+                    System.exit(0);
+                    break;
+                default:
+                    System.out.println("");
+                    System.out.println("Masukan anda tidak ada dalam pilihan... ");
+                    break;
             }
         }
-        
-        
+
     }
-    
+
 }
