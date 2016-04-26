@@ -10,7 +10,17 @@ public class MainHitungan {
         int a,b,pil;
         double x,y;
         for (;;) {
-            
+            System.out.println(" >> Menu Perhitungan << ");
+            System.out.println("    1. Penjumlahan");
+            System.out.println("    2. Penguranan");
+            System.out.println("    3. Perkalian");
+            System.out.println("    4. Pembagian");
+            System.out.println("    5. Keluar");
+            System.out.print("Masukkan Pilihan anda : ");
+            pil = in.nextInt();
+            switch (pil){
+                
+            }
         }
     }
     
